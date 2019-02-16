@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-3.3.7-dist/css/slider.css" />
+    <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/slider.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid intro">
+        <h1>slider</h1>
+    </div>
+    <div class="row ofslifer">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+           -->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox" id="fatherc">
+              <div class="item active">
+                    <img src="bootstrap-3.3.7-dist/pics/12.jpg">
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+
+
+
+
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="row down">
+            <div class="col-lg-4 right">
+                <div class="form-group">
+                    <input type="url" id="inside">
+                </div>
+                <button type="submpit" class="btn btn-default" onclick="geturl()">Submit</button>
+            </div>
+            <div class="col-lg-8 left" id="gallery">
+                
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
